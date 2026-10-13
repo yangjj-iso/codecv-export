@@ -1,0 +1,13 @@
+{
+  "name": "codecv-export",
+  "version": "1.2.0",
+  "private": true,
+  "description": "将 CodeCV 当前简历预览打印为 PDF 的用户脚本",
+  "scripts": {
+    "check": "node --check codecv-export.user.js",
+    "test": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.0"
+  }
+}
